@@ -19,6 +19,7 @@ header {
 	margin-bottom: 24px;
 	text-align: center;
 	font-weight: bold;
+
 }
 
 header h1 {
@@ -33,6 +34,11 @@ header nav {
 	/* flex-direction: row; */
 	justify-content: space-between;
 	align-items: center;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 /* Contenitore principale */
