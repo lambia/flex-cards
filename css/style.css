@@ -29,6 +29,10 @@ header h1 {
 
 header nav {
 	padding: 24px;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-between;
+	align-items: center;
 }
 
 /* Contenitore principale */
