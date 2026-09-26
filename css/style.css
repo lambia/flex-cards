@@ -48,6 +48,7 @@ main {
 	flex-wrap: wrap;
 	justify-content: center;
 	/* align-items: stretch; */
+	gap: 10px;
 }
 
 a {
@@ -62,8 +63,9 @@ a {
 	border-radius: 8px;
 	padding: 20px;
 
-	width: calc(100% / 3);
-	/* è uguale a => width: 33.33333%; */
+	/* width: calc( 100% / 3 - 20px / 3); */
+	width: calc((100% - 20px) / 3);
+
 	min-width: 250px;
 }
 
