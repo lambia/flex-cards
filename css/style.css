@@ -44,6 +44,8 @@ header nav {
 /* Contenitore principale */
 main {
 	padding: 0 24px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 a {
@@ -57,8 +59,10 @@ a {
 	border: 1px solid #ddd;
 	border-radius: 8px;
 	padding: 20px;
-	margin-bottom: 20px;
 	min-height: 200px;
+
+	width: calc(100% / 3);
+	/* è uguale a => width: 33.33333%; */
 }
 
 .card img {
